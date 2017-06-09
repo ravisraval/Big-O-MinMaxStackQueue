@@ -33,9 +33,7 @@ def largest_sub_sum(arr)
 end
 
 #n ** 3
-require 'byebug'
 def largest_contiguous_subsum2(arr)
-  debugger
   largest = arr.first
   current = arr.first
 
